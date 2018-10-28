@@ -40,23 +40,18 @@ public class ScoreBooster extends GameObject {
         long elapsed = (System.nanoTime()-startTime)/1000000;
         if(elapsed>1000)
         {
-
             startTime = System.nanoTime();
         }
         animation.update();
 
         if(up){
             dy -=8;
-
-
         }
         else{
             dy +=1;
         }
 
         if(dy>14){dy = 14;
-
-
         }
         if(dy<-14){dy = -14;
 
