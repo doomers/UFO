@@ -6,7 +6,7 @@ import android.graphics.Paint;
 
 
 public class Smokepuff extends GameObject{
-    public int r;
+    public int r=0;
     private int i =0;
     public Smokepuff(int x, int y)
     {
