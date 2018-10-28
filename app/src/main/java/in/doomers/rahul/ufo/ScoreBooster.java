@@ -47,22 +47,19 @@ public class ScoreBooster extends GameObject {
 
         if(up){
             dy -=8;
-
-
         }
         else{
             dy +=1;
         }
 
-        if(dy>14){dy = 14;
-
-
+        if(dy>14){
+           dy = 14;
         }
-        if(dy<-14){dy = -14;
-
+        if(dy<-14){
+           dy = -14;
         }
         if(y>GamePanel.HEIGHT) y=0;
-        if(y<0)y=GamePanel.HEIGHT;
+        if(y<0) y=GamePanel.HEIGHT;
         y += dy;
 
 
